@@ -3,7 +3,7 @@ cask "ha-client" do
   name "ha-client"
   desc "kubectl-style CLI for Home Assistant"
   homepage "https://github.com/rnorth/ha-client"
-  version "0.1.0"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "ha-client" do
     on_intel do
       url "https://github.com/rnorth/ha-client/releases/download/v#{version}/ha-client_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/rnorth/ha-client"
-      sha256 "92311d7fe0f16f5f7c31a7a64d538b5555a2efa030d94511460fd53973189746"
+      sha256 "35d87c452f09b757400f7553040c62dc857df435c195838d30872aff6f8b9517"
     end
     on_arm do
       url "https://github.com/rnorth/ha-client/releases/download/v#{version}/ha-client_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/rnorth/ha-client"
-      sha256 "b61154c9d869ae5b3e29a78102ab951c52af5ca3a06f99ec115ebfc2865ce572"
+      sha256 "d72afe2932cfc3b03b45a4bba0996d76cbcf254fc0ac40dd73ac665f4eb7a84c"
     end
   end
 
@@ -28,12 +28,12 @@ cask "ha-client" do
     on_intel do
       url "https://github.com/rnorth/ha-client/releases/download/v#{version}/ha-client_#{version}_linux_amd64.tar.gz",
         verified: "github.com/rnorth/ha-client"
-      sha256 "248f4062d9110cd8786b6bdd6e718208e7054af248832b0b43c71365ac74f5c1"
+      sha256 "05dab85f6ed56f19c0d9ad6963a6dd9e9173eee2cbca1b4e1bcd7b5deae7d333"
     end
     on_arm do
       url "https://github.com/rnorth/ha-client/releases/download/v#{version}/ha-client_#{version}_linux_arm64.tar.gz",
         verified: "github.com/rnorth/ha-client"
-      sha256 "551ac8ce382e87fffdaf6bb220e7908648529722a2c239c51395844c6537e9da"
+      sha256 "53e8b57ffcbb58c6c32f31fe7ca9b81be07911001a61fa94e065f27ad30510a5"
     end
   end
 
